@@ -1,0 +1,30 @@
+{
+  "name": "boilerplate_boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for boilerplates",
+  "main": "dist/server.js",
+  "scripts": {
+    "prepare": "npx gulp",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boilerplatelab/boilerplate_boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "nailujx86",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/boilerplatelab/boilerplate_boilerplate/issues"
+  },
+  "homepage": "https://github.com/boilerplatelab/boilerplate_boilerplate#readme",
+  "devDependencies": {
+    "fs-extra": "^7.0.0",
+    "gulp": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

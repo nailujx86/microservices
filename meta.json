@@ -1,1 +1,6 @@
-
+{
+    "name": "Basic Boilerplate",
+    "description": "The boilerplate for other boilerplates",
+    "images": [],
+    "cli": ["npm install", "npm start"]
+}
