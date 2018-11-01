@@ -21,8 +21,13 @@
   },
   "homepage": "https://github.com/boilerplatelab/boilerplate_boilerplate#readme",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
     "fs-extra": "^7.0.0",
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-uglify": "^3.0.1"
   },
   "dependencies": {
     "express": "^4.16.4"
