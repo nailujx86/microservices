@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate_boilerplate",
+  "name": "microservices",
   "version": "1.0.0",
   "description": "A boilerplate for boilerplates",
   "main": "dist/server.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/boilerplatelab/boilerplate_boilerplate.git"
+    "url": "git+https://github.com/nailujx86/microservices.git"
   },
   "keywords": [
-    "boilerplate"
+    "microservice"
   ],
   "author": "nailujx86",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/boilerplatelab/boilerplate_boilerplate/issues"
+    "url": "https://github.com/nailujx86/microservices/issues"
   },
-  "homepage": "https://github.com/boilerplatelab/boilerplate_boilerplate#readme",
+  "homepage": "https://github.com/nailujx86/microservices#readme",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
@@ -30,6 +30,8 @@
     "gulp-uglify": "^3.0.1"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "express-useragent": "^1.0.12",
+    "request": "^2.88.0"
   }
 }
